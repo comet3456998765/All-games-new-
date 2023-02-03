@@ -1,6 +1,6 @@
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
-local win = Flux:Window("All fe scripts", "", Color3.fromRGB(255, 110, 48), Enum.KeyCode.RightControl)
+local win = Flux:Window("All fe scripts", "", Color3.fromRGB(255, 110, 48), Enum.KeyCode.RightAlt)
 
 local tab = win:Tab("Fe Scripts", "http://www.roblox.com/asset/?id=6023426915")
 tab:Label("Fe scripts")
