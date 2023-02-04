@@ -4,7 +4,7 @@ local win = Flux:Window("All Games Gui", "", Color3.fromRGB(255, 110, 48), Enum.
 local tab = win:Tab("Games", "http://www.roblox.com/asset/?id=6023426915")
 tab:Label("Prison Life")
 tab:Button("Adm for mobiles 3 (Recomended) (Oficial)", "Adm for mobiles created by ! Net Hub#4124", function()
-	Flux:Notification("running Adm for mobiles 2", "Alright")
+	Flux:Notification("running Adm for mobiles 3", "Alright")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Update/main/Newadm"))()
 end)
 tab:Button("Adm for mobiles 2 (Recomended)", "Adm for mobiles", function()
