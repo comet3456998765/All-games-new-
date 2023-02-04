@@ -4,6 +4,10 @@ local win = Flux:Window("All fe scripts", "", Color3.fromRGB(255, 110, 48), Enum
 
 local tab = win:Tab("Fe Scripts", "http://www.roblox.com/asset/?id=6023426915")
 tab:Label("Fe scripts")
+tab:Button("Bird", "Bird Fe script", function()
+	Flux:Notification("running", "Alright")
+	https://raw.githubusercontent.com/comet3456998765/BirdSCRIPT/main/Yes
+end)
 tab:Button("CloVr", "", function()
 	Flux:Notification("running", "Alright")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/Clovr-for-SKHub-Kavo-and-Orion/main/O"))()
