@@ -6,7 +6,7 @@ local tab = win:Tab("Fe Scripts", "http://www.roblox.com/asset/?id=6023426915")
 tab:Label("Fe scripts")
 tab:Button("Bird", "Bird Fe script", function()
 	Flux:Notification("running", "Alright")
-	https://raw.githubusercontent.com/comet3456998765/BirdSCRIPT/main/Yes
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/BirdSCRIPT/main/Yes"))()
 end)
 tab:Button("CloVr", "", function()
 	Flux:Notification("running", "Alright")
