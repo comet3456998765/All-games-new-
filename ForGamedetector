@@ -73,7 +73,7 @@ TigerAdm.TextScaled = true
 TigerAdm.TextSize = 14.000
 TigerAdm.TextWrapped = true
 TigerAdm.MouseButton1Click:Connect(function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/comet3456998765/Tiger_Admin/main/Script'))()
 end)
 
 UICorner_3.Parent = TigerAdm
